@@ -74,7 +74,6 @@ class PostViewModel : ViewModel() {
             database!!.getDao().insertPost(post)
         }
     }
-
     fun changeFragment(stateFragments: StateFragments){
         _currentFragment.postValue(stateFragments)
     }
