@@ -17,7 +17,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 class ViewFragment : Fragment(R.layout.fragment_view) {
     val viewModel: PostViewModel by activityViewModels()
     override fun onCreateView(
-        inflater: LayoutInflater,
+         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {

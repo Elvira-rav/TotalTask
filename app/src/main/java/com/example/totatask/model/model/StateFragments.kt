@@ -1,6 +1,6 @@
 package com.example.totatask.model.model
 
 enum class StateFragments {
-    View,
+     View,
     Add
 }

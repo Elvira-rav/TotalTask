@@ -11,7 +11,6 @@ import androidx.room.Update
 interface PostDao {
     @Query("SELECT * FROM POST")
     suspend fun getPosts(): List<Post>
-
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertPost(post: Post)
 

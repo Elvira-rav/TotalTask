@@ -3,7 +3,6 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id "org.jetbrains.kotlin.kapt"
 }
-
 android {
     namespace 'com.example.totatask'
     compileSdk 33
